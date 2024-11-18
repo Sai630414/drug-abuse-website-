@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="logo.png" alt="Logo" width="40" height="40" class="me-2">
+        <span>Beyond Addiction</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+       
+            
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+
+  <!-- Hero Section -->
+<div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active" style="background-image: url('slide1.jpg');">
+        <div class="carousel-overlay">
+          <div class="carousel-caption">
+            <h1>Rise above the drugs</h1>
+            
+        
+          </div>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="carousel-item" style="background-image: url('slide2.jpg');">
+        <div class="carousel-overlay">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="carousel-item" style="background-image: url('slide3.jpg');">
+        <div class="carousel-overlay">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- What is Drug Abuse Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mb-4">What is Drug Abuse?</h2>
+          <p class="lead text-muted">
+            Drug abuse refers to the misuse of substances such as alcohol, prescription medications, or illegal drugs in a way that is harmful to the individual's health, relationships, and life responsibilities. It can lead to addiction and long-term damage to both mental and physical well-being.
+          </p>
+          <p class="text-muted">
+            Understanding drug abuse is the first step toward preventing and addressing its harmful effects on society. Support systems, education, and awareness can play a vital role in overcoming this challenge.
+          </p>
+          <a href="http://127.0.0.1:5500/what%20is%20drug%20abuse/index.html#" class="btn btn-primary mt-3">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Drug Addiction Stats Section with Graph -->
+<section class="py-5 bg-light text-dark" id="drugStats">
+  <div class="container">
+    <h2 class="text-center mb-4">Drug Addiction Statistics</h2>
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <canvas id="drugStatsChart"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    
+
+    <!-- Types and Case Studies Section -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Different Case Studies</h2>
+        <div class="row gy-4">
+          <!-- Type 1 -->
+          <div class="col-md-4 text-center">
+            <a href="file:///D:/web%20pages/drug/case%20study/1/index.html">
+              <img src="type1.jpg" alt="Type 1" class="img-fluid rounded shadow">
+            </a>
+            <h5 class="mt-3">Growing issue in Bangladesh</h5>
+            <p>In Bangladesh about 80 percent of the drug addicts are adolescents and young men of 15 to 30 years of age.</p>
+          </div>
+          <!-- Type 2 -->
+          <div class="col-md-4 text-center">
+            <a href="file:///D:/web%20pages/drug/case%20study/2/index.html">
+              <img src="type2.jpg" alt="Type 2" class="img-fluid rounded shadow">
+            </a>
+            <h5 class="mt-3">Addicted in 16</h5>
+            <p>A 16-year-old is vulnerable to peer pressure, curiosity, and early exposure to addiction risks.</p>
+          </div>
+          <!-- Case Study 1 -->
+          <div class="col-md-4 text-center">
+            <a href="file:///D:/web%20pages/drug/case%20study/3/index.html">
+              <img src="casestudy1.jpg" alt="Case Study 1" class="img-fluid rounded shadow">
+            </a>
+            <h5 class="mt-3">Saba (23)</h5>
+            <p>Saba, a 23-year-old heroin addict, struggles with guilt, recovery, and societal stigma.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+
+
+
+<!-- Steps to Get Relief from Drug Addiction Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Steps to Get Relief from Drug Addiction</h2>
+    <div class="row gy-4">
+      <!-- Step 1 -->
+      <div class="col-md-4">
+        <div class="step-card p-4 shadow rounded text-center">
+          <h5 class="mb-2">Step 1: Acknowledge the Problem</h5>
+          <p class="text-muted">The first step to recovery is recognizing the existence of addiction and its impact on your life.</p>
+        </div>
+      </div>
+      <!-- Step 2 -->
+      <div class="col-md-4">
+        <div class="step-card p-4 shadow rounded text-center">
+          <h5 class="mb-2">Step 2: Seek Professional Help</h5>
+          <p class="text-muted">Reach out to healthcare professionals or counselors who specialize in addiction recovery.</p>
+        </div>
+      </div>
+      <!-- Step 3 -->
+      <div class="col-md-4">
+        <div class="step-card p-4 shadow rounded text-center">
+          <h5 class="mb-2">Step 3: Build a Support System</h5>
+          <p class="text-muted">Surround yourself with supportive family, friends, and groups that encourage sobriety.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <!-- Step 4 -->
+      <div class="col-md-4">
+        <div class="step-card p-4 shadow rounded text-center">
+          <h5 class="mb-2">Step 4: Create Healthy Habits</h5>
+          <p class="text-muted">Adopt a healthier lifestyle with exercise, nutrition, and hobbies to replace addictive behaviors.</p>
+        </div>
+      </div>
+      <!-- Step 5 -->
+      <div class="col-md-4">
+        <div class="step-card p-4 shadow rounded text-center">
+          <h5 class="mb-2">Step 5: Set Realistic Goals</h5>
+          <p class="text-muted">Work on short- and long-term goals to maintain your recovery journey effectively.</p>
+        </div>
+      </div>
+      <!-- Step 6 -->
+      <div class="col-md-4">
+        <div class="step-card p-4 shadow rounded text-center">
+          <h5 class="mb-2">Step 6: Stay Committed</h5>
+          <p class="text-muted">Recovery is a journey. Stay committed by focusing on the progress you’ve made and the life you’re rebuilding.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Locate Dehabilitation Centers Section -->
+<!-- Locate Dehabilitation Centers Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Locate Rehabilitation Centers Near Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card p-4 shadow rounded">
+          <h5 class="mb-3 text-center">Find Centers in Your Area</h5>
+          <!-- Link to Google Maps with Rehabilitation Centers search -->
+          <a href="https://www.google.com/maps/search/rehabilitation+center+near+me/@16.4961937,80.4393431,12z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" class="btn btn-primary w-100" target="_blank">
+            Locate Centers
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Contribute to NGOs Section -->
+<section class="py-5 bg-light" id="contribute">
+  <div class="container">
+    <h2 class="text-center mb-4">Contribute to NGOs</h2>
+    <p class="text-center mb-4">Your contribution helps us make a difference. Choose an amount below or enter a custom amount to donate.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form id="contributionForm" action="#" method="post">
+          <!-- Default Amount Buttons -->
+          <div class="d-flex justify-content-between mb-4">
+            <button type="button" class="btn btn-primary w-30 fixed-amount" data-amount="500">₹500</button>
+            <button type="button" class="btn btn-primary w-30 fixed-amount" data-amount="1000">₹1000</button>
+            <button type="button" class="btn btn-primary w-30 fixed-amount" data-amount="2000">₹2000</button>
+          </div>
+          <!-- Custom Amount Input -->
+          <div class="mb-3">
+            <label for="customAmount" class="form-label">Enter Custom Amount</label>
+            <input type="number" class="form-control" id="customAmount" name="customAmount" placeholder="Enter amount in ₹">
+          </div>
+          <!-- Submit Button -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-success">Contribute Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="py-5 bg-light" id="faqSection">
+  <div class="container">
+    <h2 class="text-center mb-4">FAQs</h2>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span class="triangle">&#9654;</span>
+        <span>What is drug addiction?</span>
+      </div>
+      <div class="faq-answer">Drug addiction is a chronic disorder characterized by compulsive drug seeking and use despite harmful consequences.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span class="triangle">&#9654;</span>
+        <span>What are the common signs of drug addiction?</span>
+      </div>
+      <div class="faq-answer">Common signs include changes in behavior, neglecting responsibilities, health issues, and withdrawal symptoms.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span class="triangle">&#9654;</span>
+        <span>How can drug addiction affect families?</span>
+      </div>
+      <div class="faq-answer">Drug addiction can lead to strained relationships, financial problems, and emotional distress within families.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span class="triangle">&#9654;</span>
+        <span>What are the treatment options for drug addiction?</span>
+      </div>
+      <div class="faq-answer">Treatment options include therapy, medication, support groups, and rehabilitation programs.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span class="triangle">&#9654;</span>
+        <span>Can drug addiction be prevented?</span>
+      </div>
+      <div class="faq-answer">Yes, prevention can include education, fostering strong relationships, and addressing mental health issues early.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span class="triangle">&#9654;</span>
+        <span>What is the role of rehabilitation centers?</span>
+      </div>
+      <div class="faq-answer">Rehabilitation centers provide a structured environment for recovery, therapy, and skill development.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span class="triangle">&#9654;</span>
+        <span>How can society support recovering addicts?</span>
+      </div>
+      <div class="faq-answer">Society can support by reducing stigma, offering resources, and creating inclusive environments for recovering individuals.</div>
+    </div>
+  </div>
+</section>
+
+<!-- Suspicious Activities Reporting Popup Section -->
+<section>
+ <!-- Floating Button -->
+<div id="floatingButton" class="floating-button">
+  <button class="btn btn-primary">Report Suspicious Activity</button>
+</div>
+
+<!-- Floating Popup -->
+<div id="floatingPopup" class="floating-popup d-none">
+  <div class="popup-content">
+    <p>
+      <strong>Report Suspicious Activity:</strong> Help us prevent drug abuse by providing details about suspicious activities.
+    </p>
+    <form id="reportForm">
+      <!-- Address Input -->
+      <div class="mb-3">
+        <label for="address" class="form-label">Address</label>
+        <input type="text" class="form-control" id="address" placeholder="Enter the address" required>
+      </div>
+      <!-- Description Input -->
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea class="form-control" id="description" rows="3" placeholder="Describe the activity" required></textarea>
+      </div>
+      <!-- Submit and Close Buttons -->
+      <div class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-success">Submit</button>
+        <button type="button" class="btn btn-danger" id="closePopup">Close</button>
+      </div>
+    </form>
+  </div>
+</div>
+</section>
+
+
+<!-- About Us Section with Grey Background -->
+<section class="py-5 bg-grey text-dark mb-0">
+  <div class="container">
+    <div class="row text-center text-md-left">
+      <!-- About Us Column -->
+      <div class="col-md-4 mb-4">
+        <h5>About Us</h5>
+        <p>We are committed to helping individuals overcome drug addiction by providing support and resources for rehabilitation and recovery.</p>
+      </div>
+      <!-- Contact Us Column -->
+      <div class="col-md-4 mb-4">
+        <h5>Contact Us</h5>
+        <p>Email: info@beyondaddiction.com</p>
+        <p>Phone: +918308305252</p>
+      </div>
+      <!-- Address Column -->
+      <div class="col-md-4 mb-4">
+        <h5>Our Address</h5>
+        <p>31-451, SBI street, guntur, 522298</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section with Black Background -->
+<footer class="bg-black text-white py-3">
+  <div class="container text-center">
+    <p>&copy; 2024 Beyond Addiction. All rights reserved.</p>
+    <p class="small">Designed with ❤️ by Your Team</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Include Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

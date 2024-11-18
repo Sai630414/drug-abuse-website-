@@ -1,0 +1,436 @@
+/* Logo styling */
+.logo {
+  height: 80px;
+  width: auto;
+}
+
+/* Adjust the navbar */
+.navbar {
+  width: 100%; /* Full-width navbar */
+  padding: 1rem; /* Adjust padding for better spacing */
+}
+
+/* Increase font size for navbar items */
+.navbar-nav .nav-link {
+  font-size: 1.2rem; /* Larger font size for nav links */
+  margin: 0 10px; /* Add spacing between nav items */
+}
+
+/* Navbar brand styling */
+.navbar-brand span {
+  font-size: 1.5rem; /* Larger font for brand name */
+  font-weight: bold; /* Make it bold for emphasis */
+}
+
+/* Dropdown menu font size */
+.dropdown-menu .dropdown-item {
+  font-size: 1rem; /* Adjust font size for dropdown items */
+}
+
+/* Optional: Make the navbar taller */
+.navbar {
+  min-height: 70px; /* Adjust height */
+}
+
+  
+
+/* Hero Slider Styling */
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  /* Black Overlay */
+  .carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(20, 19, 19);
+  }
+  
+  /* Text Styling */
+  .carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .carousel-caption .btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  /* Indicators and Controls */
+  .carousel-indicators button {
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  
+
+  /* Section Styling */
+section {
+    padding: 4rem 0;
+  }
+  
+  section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  section .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+
+      /* Footer Styling */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .small {
+  font-size: 0.875rem;
+  color: #ccc;
+}
+
+
+
+/* Section Styling */
+section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+section img {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+section img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+section h5 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+
+
+
+
+
+/* Steps Section Styling */
+.step-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+
+
+
+/* Locate Dehabilitation Centers Section Styling */
+section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+.card h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card .form-control {
+  padding: 10px;
+}
+
+button[type="submit"] {
+  font-size: 1.1rem;
+  padding: 12px;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+
+/* Styling for About Us Section */
+section.bg-grey {
+  background-color: #ada9a9; /* Grey background for About Us */
+  color: #000000; /* Dark text color */
+  padding-bottom: 0; /* No bottom padding */
+  margin-bottom: 0; /* No bottom margin */
+}
+
+/* Styling for Footer */
+footer.bg-black {
+  background-color: #000000; /* Black background for Footer */
+  color: white;
+  padding-top: 0; /* No top padding */
+  margin-top: 0; /* No top margin */
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+
+/* Stats Section Styling */
+#drugStats {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 40px 0;
+}
+
+#drugStats h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+
+
+/* FAQ Section Styling */
+#faqSection {
+  background-color: #f8f9fa; /* Light background */
+  padding: 40px 0;
+}
+
+#faqSection h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.faq-question .triangle {
+  margin-right: 10px;
+  transform: rotate(0deg);
+  transition: transform 0.3s;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+  padding-left: 25px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.faq-item.open .faq-answer {
+  display: block;
+}
+
+.faq-item.open .triangle {
+  transform: rotate(90deg);
+}
+
+
+
+/* Contribute Section Styling */
+#contribute {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 40px 0;
+}
+
+#contribute h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#contribute p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Buttons Styling */
+.fixed-amount {
+  flex: 1;
+  margin: 0 5px;
+  font-size: 1.2rem;
+}
+
+#customAmount {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+#contribute .btn-success {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ /* Floating Button Styling */
+ .floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.floating-button .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Floating Popup Styling */
+.floating-popup {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 2px solid #dc3545;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 15px;
+  display: none; /* Hidden by default */
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Fade-in animation for popup */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Form Input Styling */
+#reportForm input,
+#reportForm textarea {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+#reportForm .btn {
+  font-size: 0.9rem;
+  padding: 5px 10px;
+}
+
+
+.floating-popup {
+  position: fixed;
+  bottom: 20%;
+  right: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.floating-popup.d-none {
+  display: none;
+}
+
+.floating-button {
+  position: fixed;
+  right: 20px;
+  z-index: 1000;
+}
+
+.floating-button button {
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
